@@ -23,7 +23,7 @@ const discussionTopics = [
     'Climate Change',
 ];
 
-export function EmptyScreen({ onSubmitForm }) {
+export function EmptyScreen({ onSubmitForm }: any) {
     const [formState, setFormState] = useState<FormState>({
         userAlignment: '',
         partnerAlignment: '',
